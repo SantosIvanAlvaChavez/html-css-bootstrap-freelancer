@@ -21,3 +21,43 @@
   margin-bottom: 30px;
   height: 500px;
 }
+
+/* MAIN */
+
+/* PORTFOLIO */
+.portfolio .row {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.portfolio .row .box {
+  background-color: #9c9ab4;
+  border-radius: 5px;
+  height: 250px;
+  margin-bottom: 50px;
+}
+
+/* ABOUT */
+.about {
+  background: #1abc9c;
+}
+
+.about .row {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.about .row .box {
+  background: #fff;
+  height: 250px;
+}
+
+/* CONTATTI */
+.contatti {
+  height: 600px;
+}
+
+.contatti .row {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
