@@ -1,13 +1,46 @@
-/* HEADER */
-.header-nav {
-  background-color: #2c3e50;
+/* GENERAL */
+body {
+  font-family: 'Lato', sans-serif;
 }
 
-.header-nav .col-md-3 {
-  background-color: #fff;
-  margin-top: 35px;
-  margin-bottom: 35px;
-  height: 30px;
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+/* HEADER */
+.main-header {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+.main-header .navbar {
+  background-color: #2c3e50;
+  border: none;
+  margin-bottom: 0px;
+  border-radius: 0;
+}
+
+.main-header .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  height: 100px;
+  font-weight: 700;
+  line-height: 90px;
+  padding: 0 20px;
+}
+
+.main-header .navbar-nav > li > a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 90px;
+  padding: 0 20px;
+  transition: background .2s;
+}
+
+.main-header .navbar-nav > li > a:hover {
+  color: #1abc9c;
 }
 
 /* JUMBOTRON */
@@ -16,11 +49,20 @@
 }
 
 .jumbotron .col-xs-12 {
-  background-color: #fff;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  height: 500px;
+  margin-bottom: 90px;
 }
+
+.jumbotron h1 {
+  font-size: 60px;
+  line-height: 75px;
+}
+
+.jumbotron img {
+  height: 240px;
+}
+
+.jumbotron p {
+  font-size: 20px;
 
 /* MAIN */
 
