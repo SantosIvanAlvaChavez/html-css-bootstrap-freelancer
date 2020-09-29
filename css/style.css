@@ -3,9 +3,53 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
+}
+
+h2 {
+  color: #2c3e50;
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid transparent;
+  padding: 10px 35px;
+  font-size: 20px;
+  line-height: 45px;
+  border-radius: 8px;
+  transition: background-color .6s ease-in-out;
+}
+
+.btn-primary {
+  background-color: #1abc9c;
+  border: 2px solid transparent;
+}
+
+.btn-primary:hover {
+  background-color: #0e7e67;
+  border: 2px solid transparent;
+}
+
+.btn-white {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+.btn-white:hover {
+  color: #000;
+  background-color: #fff;
+  border-color: transparent;
 }
 
 /* HEADER */
@@ -53,7 +97,7 @@ h1 {
 }
 
 .jumbotron h1 {
-  font-size: 60px;
+  font-size: 50px;
   line-height: 75px;
 }
 
@@ -63,45 +107,87 @@ h1 {
 
 .jumbotron p {
   font-size: 20px;
+}
 
 /* MAIN */
 
 /* PORTFOLIO */
-.portfolio .row {
-  margin-top: 80px;
-  margin-bottom: 80px;
+.portfolio .box {
+  height: 250px;
+  margin-bottom: 90px;
 }
 
-.portfolio .row .box {
-  background-color: #9c9ab4;
-  border-radius: 5px;
-  height: 250px;
-  margin-bottom: 50px;
+.portfolio .box img {
+  border-radius: 12px;
 }
 
 /* ABOUT */
 .about {
+  color: #fff;
   background-color: #1abc9c;
+  padding: 40px 0;
 }
 
-.about .row {
-  margin-top: 80px;
-  margin-bottom: 80px;
+.about h2 {
+  color: #fff;
 }
 
-.about .row .box {
-  background-color: #fff;
-  height: 250px;
+.about .box {
+  margin-bottom: 30px;
+}
+
+.about .box p {
+  font-size: 21px;
+  line-height: 32px;
+  font-weight: 600;
 }
 
 /* CONTATTI */
 .contatti {
-  height: 600px;
+  background-color: #fff;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
-.contatti .row {
-  margin-top: 80px;
-  margin-bottom: 80px;
+.contatti h2 {
+  color: #2c3e50;
+}
+
+.register-form .form-group input,
+.register-form .form-group textarea {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 3px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #6c757d;
+  box-shadow: none;
+  outline: none;
+}
+
+.register-form .form-group input {
+  height: 95px;
+  line-height: 90px;
+}
+
+.register-form .form-group textarea {
+  height: 250px;
+  line-height: 90px;
+  font-weight: 600;
+}
+
+.register-form .form-group input:focus,
+.register-form .form-group textarea:focus,
+.register-form .form-group input:hover,
+.register-form .form-group textarea:hover {
+  border-bottom: 1px solid;
+}
+
+/* PLACEHOLDER APPEARANCE */
+.register-form ::placeholder {
+  color: #6c757d;
+  font-weight: 600;
 }
 
 /* FOOTER */
